@@ -1,8 +1,7 @@
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
 
 
 
@@ -93,7 +92,7 @@ async def start_command(client: Client, message: Message):
 
             except:
                 pass
-        k = await client.send_message(chat_id = message.from_user.id, text=f"Baka! Files will be deleted After 10 minutes. Save them to the Saved Message now!")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>Baka! Files will be deleted After 10 minutes. Save them to the Saved Message now!</b>")
         await asyncio.sleep(SECONDS)
         await f.delete()
         await k.edit_text("Your video / file is successfully deleted !")
@@ -229,8 +228,7 @@ Unsuccessful: <code>{unsuccessful}</code></b>"""
 
 
 
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
