@@ -105,22 +105,6 @@ stats - checking your bot uptime
 
 
 
-### ❤️ RESPECTING ❤️
-- [ZenoDeveloper](https://github.com/AnimeFactory)
-
 ### 💕 CONTACT DEVELOPER 💕
 - [Zeno Developer](https://t.me/Grand_Zeno_Omni_KingBot)
 - [Anime Factory Official](https://t.me/Anime_Factory_Official)
-Botz](https://t.me/Madflix_Bots)
-- [Jishu Botz](https://t.me/JishuBotz)
-
-### 💕 CONTACT DEVELOPER 💕
-- [Jishu Developer](https://t.me/JishuDeveloper)
-- [Madflix Official](https://t.me/MadflixOfficials)
-
-### ☕ BUY ME A COFFEE ☕
-- [PayPal](https://paypal.me/jishudeveloper/2.50USD)
-- [PhonePe](https://graph.org/file/6822df5af3a2e80637172.jpg)
-- [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
-af3a2e80637172.jpg)
-- [UPI](https://graph.org/file/b831109be4acff5c966d2.jpg)
