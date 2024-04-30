@@ -1,8 +1,7 @@
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
 
 
 
@@ -14,14 +13,14 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7115826141:AAHyK12NjRqdn_YSMgw0wr9z7lEZiddsUqE")
-APP_ID = int(os.environ.get("APP_ID", "21016163"))
-API_HASH = os.environ.get("API_HASH", "365f3421c4243310e1c738e2b6fb63a1")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+APP_ID = int(os.environ.get("APP_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
 
 
 OWNER = os.environ.get("OWNER", "https://t.me/Grand_Zeno_Omni_KingBot") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "5806054139")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://frankanimes:qayplmwsxokn@cluster0.xksjqdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
@@ -89,8 +88,7 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
