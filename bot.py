@@ -1,8 +1,7 @@
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
 
 
 
@@ -89,8 +88,7 @@ class Bot(Client):
 
 
 
-# Jishu Developer 
+# Zeno Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
+# Telegram Channel @Anime_Factory_Official
+# Developer @Grand_Zeno_Omni_KingBot
