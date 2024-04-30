@@ -1,24 +1,24 @@
 {
-  "name": "File Sharing Premium Bot",
-  "description": "Telegram File Sharing Premium Bot Bot ",
+  "name": "File Store Bot",
+  "description": "Telegram File Store Bot ",
   "logo": "https://graph.org/Bulma-04-17",
   "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
-  "repository": "https://github.com/AnimeFactory/File-Sharing-Premium-Bot",
+  "repository": "https://github.com/AnimeFactory/File_Store_Bot",
   "success_url": "https://t.me/Anime_Factory_Official",
   "env": {
       "APP_ID": {
           "description": "Your APP ID From my.telegram.org ",
-          "value": "21016163",
+          "value": "",
           "required": true
       },
       "API_HASH": {
           "description": "Your API Hash From my.telegram.org ",
-          "value": "365f3421c4243310e1c738e2b6fb63a1",
+          "value": "",
           "required": true
       },
       "TG_BOT_TOKEN": {
           "description": "Your Bot Token From @BotFather",
-          "value": "7115826141:AAHyK12NjRqdn_YSMgw0wr9z7lEZiddsUqE",
+          "value": "",
           "required": true
       },
       "OWNER": {
@@ -43,7 +43,7 @@
       },
       "DB_URL": {
           "description": "Your Mongo DB Database URL",
-          "value": "mongodb+srv://frankanimes:qayplmwsxokn@cluster0.xksjqdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "value": "",
           "required": true
       },
       "DB_NAME":{ 
@@ -79,7 +79,7 @@
   },
   "buildpacks": [
       {
-          "url": "heroku/python"
+          "url": "koyeb/python"
       }
   ]
 }
