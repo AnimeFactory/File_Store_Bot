@@ -1,0 +1,85 @@
+{
+  "name": "File Sharing Premium Bot",
+  "description": "Telegram File Sharing Premium Bot Bot ",
+  "logo": "https://graph.org/Bulma-04-17",
+  "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
+  "repository": "https://github.com/AnimeFactory/File-Sharing-Premium-Bot",
+  "success_url": "https://t.me/Anime_Factory_Official",
+  "env": {
+      "APP_ID": {
+          "description": "Your APP ID From my.telegram.org ",
+          "value": "21016163",
+          "required": true
+      },
+      "API_HASH": {
+          "description": "Your API Hash From my.telegram.org ",
+          "value": "365f3421c4243310e1c738e2b6fb63a1",
+          "required": true
+      },
+      "TG_BOT_TOKEN": {
+          "description": "Your Bot Token From @BotFather",
+          "value": "7115826141:AAHyK12NjRqdn_YSMgw0wr9z7lEZiddsUqE",
+          "required": true
+      },
+      "OWNER": {
+          "description":"Add Your username here",
+          "value": "https://t.me/Grand_Zeno_Omni_KingBot",
+          "required": true
+      },
+      "OWNER_ID": {
+        "description":"Add Your User ID here",
+        "value": "5806054139",
+        "required": true
+      },
+      "CHANNEL_ID": {
+          "description":"Make a channel (database channel), then make the bot as admin in channel, and it's id",
+          "value": "-1002042077879",
+          "required": true          
+      },
+      "FORCE_SUB_CHANNEL": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": "-1002122508523",
+        "required": false
+      },
+      "DB_URL": {
+          "description": "Your Mongo DB Database URL",
+          "value": "mongodb+srv://frankanimes:qayplmwsxokn@cluster0.xksjqdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+          "required": true
+      },
+      "DB_NAME":{ 
+          "description":"Your Mongo DB Database Name",
+          "value": "Cluster0",
+          "required": false
+      },
+      "START_MESSAGE": {
+        "description": "Optional: start message of bot, use HTML parsemode format",
+        "value": "Hello {mention}\n\nI am a file store bot Powered by @Anime_Factory_Official ⚡.",
+        "required": false
+      },
+      "FORCE_SUB_MESSAGE": {
+        "description": "Optional: Force Sub message of bot, use HTML parsemode format",
+        "value": "Hello {mention}\n\n<b>You Need To Join In My Channel To Use Me\n\nKindly Please Join Channel</b>",
+        "required": false
+      },
+      "ADMINS": {
+        "description": "A space separated list of user_ids of Admins, they can only create links",
+        "value": "5806054139 6295345515",
+        "required": false
+      },
+      "PROTECT_CONTENT": {
+        "description": "Protect contents from getting forwarded",
+        "value": "False",
+        "required": false
+      },
+      "SECONDS": {
+        "description": "auto delete in seconds",
+        "value": "600",
+        "required": false
+      }
+  },
+  "buildpacks": [
+      {
+          "url": "heroku/python"
+      }
+  ]
+}
